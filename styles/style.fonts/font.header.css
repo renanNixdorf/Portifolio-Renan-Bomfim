@@ -1,0 +1,29 @@
+.font-script {
+  font-family: "Dancing Script", cursive;
+  color: var(--cor-titulo);
+  font-size: clamp(1rem, 1rem + 10vw, 5.5rem);
+}
+
+.font-sub-web {
+  color: var(--cor-destaque);
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1rem, 0.8rem + 4vw, 4rem);
+}
+
+.main-content p {
+  font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
+}
+
+.main-content a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+  font-size: clamp(0.2rem, 1rem + 0.5vw, 1.5rem);
+}
+
+.font-span-script {
+  font-family: "Dancing Script", cursive;
+  color: var(--cor-primaria);
+  font-size: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+}

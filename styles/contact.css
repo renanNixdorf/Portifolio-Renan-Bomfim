@@ -1,0 +1,7 @@
+.contact {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 55ch;
+}

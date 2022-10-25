@@ -1,0 +1,23 @@
+.section-title h2 {
+  font-size: clamp(2.5rem, 1rem + 3vw, 3.5rem);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section-title span {
+  color: var(--cor-primaria);
+  font-weight: 700;
+}
+
+.section-title p {
+  font-size: clamp(0.8rem, 1rem + 2vw, 1.1rem);
+  color: var(--cor-subtitulo);
+}
+
+.section-title span {
+  display: inline-block;
+  width: 65px;
+  height: 15px;
+  border-radius: 4px;
+  background-color: var(--cor-primaria);
+}
