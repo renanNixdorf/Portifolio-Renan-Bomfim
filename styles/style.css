@@ -16,6 +16,7 @@
   --cor-subtitulo: #ccd6f6;
   --cor-box: #14013d;
   --cor-box-skills: #ac85ff;
+  --cor-texto: #c6abff;
   --cor-fundo: #070114;
   --box-shadow: 2px 2px 6px rgba(35, 0, 108, 1);
 }
@@ -36,4 +37,17 @@ body {
 
 .view {
   height: 100vh;
+}
+
+@media (max-width: 500px) {
+  .view {
+    height: auto;
+    margin-bottom: 10rem;
+  }
+
+  .title-default p {
+    max-width: 45ch;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
 }

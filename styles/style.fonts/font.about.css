@@ -1,23 +1,27 @@
-.section-title h2 {
+.title-default h2 {
   font-size: clamp(2.5rem, 1rem + 3vw, 3.5rem);
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.section-title span {
+.title-default span {
   color: var(--cor-primaria);
-  font-weight: 700;
 }
 
-.section-title p {
-  font-size: clamp(0.8rem, 1rem + 2vw, 1.1rem);
+.title-default p {
+  font-size: clamp(0.4rem, 0.4rem + 2vw, 1.2rem);
   color: var(--cor-subtitulo);
 }
 
-.section-title span {
-  display: inline-block;
-  width: 65px;
-  height: 15px;
-  border-radius: 4px;
-  background-color: var(--cor-primaria);
+.about-text > p {
+  color: var(--cor-texto);
+  font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
+}
+
+.formation > span {
+  color: var(--cor-texto);
+}
+
+.card-skills h3 {
+  text-transform: uppercase;
 }
