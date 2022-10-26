@@ -36,16 +36,15 @@ body {
 }
 
 .view {
-  height: 100vh;
+  margin-bottom: 14rem;
 }
 
 @media (max-width: 800px) {
   .view {
-    height: auto;
     margin-bottom: 10rem;
   }
 
-  .main-content p{
+  .main-content p {
     max-width: auto;
   }
 }

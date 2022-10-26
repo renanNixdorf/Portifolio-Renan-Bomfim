@@ -1,20 +1,22 @@
-.flex-b {
+.project-content {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin: 0 2rem;
+  margin: 0 2.5rem;
 }
 
-.box {
+.tools-box {
   background-color: #14013d;
   max-width: 600px;
   padding: 2rem;
-  border-radius: 0.8rem;
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 0.2rem;
 }
 
-@media (max-width: 800px) {
-  .flex-b {
-    flex-direction: column;
-    place-content: center;
+@media (max-width: 900px) {
+  .project-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 }
