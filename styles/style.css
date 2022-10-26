@@ -39,12 +39,18 @@ body {
   height: 100vh;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .view {
     height: auto;
     margin-bottom: 10rem;
   }
 
+  .main-content p{
+    max-width: auto;
+  }
+}
+
+@media (max-width: 500px) {
   .title-default p {
     max-width: 45ch;
     margin: 0 10px;
