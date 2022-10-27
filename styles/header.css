@@ -44,10 +44,21 @@
   transition: all 0.3s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .menu-content {
     display: flex;
     flex-direction: column;
+  }
+
+  .menu-content li {
+    background-color: #682ae9;
+    margin-top: 0.6rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.2rem;
+  }
+
+  .menu-content a:hover {
+    color: var(--cor-fundo);
   }
 }
 

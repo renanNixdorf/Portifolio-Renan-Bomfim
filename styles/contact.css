@@ -1,11 +1,10 @@
 .contact {
   display: grid;
   gap: 2.5rem;
-  justify-content: center;
   text-align: center;
   margin: 0 auto;
-  max-width: 55ch;
-  font-size: clamp(0.6rem, 0.6rem + 1vw, 1.2rem);
+  max-width: 66ch;
+  font-size: clamp(0.7rem, 0.7rem + 1vw, 1.2rem);
 }
 
 .hello {
