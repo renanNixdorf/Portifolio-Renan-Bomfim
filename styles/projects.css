@@ -41,6 +41,20 @@
   color: var(--cor-destaque);
 }
 
+.tools-box h1::before {
+  content: "$";
+  font-weight: 600;
+  margin-right: 0.3rem;
+  color: var(--cor-primaria);
+}
+
+.tools-box p::before {
+  content: "&";
+  font-weight: 600;
+  margin-right: 0.3rem;
+  color: var(--cor-destaque);
+}
+
 @media (max-width: 900px) {
   .project-content {
     display: grid;
