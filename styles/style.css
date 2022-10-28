@@ -2,8 +2,6 @@
 
 @import url("./style.fonts/font.header.css");
 @import url("./style.fonts/font.about.css");
-@import url("./style.fonts/font.projects.css");
-@import url("./style.fonts/font.contact.css");
 @import url("./header.css");
 @import url("./about.css");
 @import url("./projects.css");
@@ -60,6 +58,28 @@ html {
   margin-top: 2rem;
   justify-content: center;
   align-items: center;
+}
+
+[data-animate] {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+[data-animate="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-animate="top"] {
+  transform: translate3d(0, 50px, 0);
+}
+
+[data-animate="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-animate].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 @media (max-width: 500px) {
