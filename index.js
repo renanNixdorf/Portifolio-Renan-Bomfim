@@ -19,7 +19,11 @@ const animationClass = "animate";
 function animationScroll() {
   const windowTop = window.pageYOffset + (window.innerHeight * 3) / 4;
   target.forEach((element) => {
-    if (windowTop > element.offsetTop) element.classList.add(animationClass);
+    if (windowTop > element.offsetTop) {
+      element.classList.add(animationClass);
+    } else {
+      element.classList.remove(animationClass);
+    }
   });
 }
 

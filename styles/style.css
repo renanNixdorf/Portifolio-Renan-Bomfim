@@ -62,7 +62,7 @@ html {
 
 [data-animate] {
   opacity: 0;
-  transition: 0.1s;
+  transition: 0.3s;
 }
 
 [data-animate="left"] {
