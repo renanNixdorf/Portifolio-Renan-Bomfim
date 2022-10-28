@@ -54,6 +54,14 @@ html {
   }
 }
 
+.social {
+  display: flex;
+  gap: 20px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 500px) {
   .title-default p,
   .contact p {
