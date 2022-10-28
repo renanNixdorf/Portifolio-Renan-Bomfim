@@ -26,6 +26,7 @@ body {
 }
 
 html {
+  scroll-margin-top: 0.8em;
   scroll-behavior: smooth;
 }
 
